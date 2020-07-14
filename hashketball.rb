@@ -185,6 +185,7 @@ def player_numbers(team_name)
         team_numbers.push(game_hash[k][:players][i][:number])
       end
       i += 1
+<<<<<<< HEAD
     end    
   end
  team_numbers
@@ -221,3 +222,10 @@ def big_shoe_rebounds
   end
   largest_shoe_holder_rebounds
 end
+=======
+      binding.pry
+    end    
+  end
+ team_numbers
+end  
+>>>>>>> 4925ef0efc101d0d002eb78ea064913d03bff347
